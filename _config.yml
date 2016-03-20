@@ -1,7 +1,7 @@
 # Site settings
-title: Inapuri Chess World
-tag_text: InapuriChessWorld
-description: Learn chess better
+title: RedGadgets
+tag_text: RedGadgets
+description: Technology at your fingertips
 url: "http://127.0.0.1:4000"
 
 font-awesome-include: true # make this false if you don't need font-awesome
