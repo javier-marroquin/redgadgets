@@ -1,6 +1,7 @@
 ---
 title: Privacy policy
 layout: page
+permalink: /privacy-policy/
 ---
 This Privacy Policy governs the manner in which redgadgets collects, uses, maintains and discloses information collected from users (each, a &#8220;User&#8221;) of the [redgadgets.com](http://redgadgets.com) website (&#8220;Site&#8221;). This privacy policy applies to the Site and all products and services offered by redgadgets.
 

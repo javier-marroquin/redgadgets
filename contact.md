@@ -5,8 +5,7 @@ permalink: /contact/
 ---
 
 
-I would love to hear from you. Any query, any suggestion or feedback would be great! If you need a website, blog or portfolio site then please leave a message.
-
+I would love to hear from you. Any query, any suggestion or feedback would be great!
 
 
 <form id="contact-form" class="form-horizontal" action="https://getsimpleform.com/messages?form_api_token=b6d4be9b039b666b3311e1ddcbfb577c" method="POST" enctype="multipart/form-data">
