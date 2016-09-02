@@ -38,6 +38,3 @@ I would love to hear from you. Any query, any suggestion or feedback would be gr
         <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
     </fieldset>  
 </form>
-
-
-This form is made functional by [SimpleForm](https://getsimpleform.com){: target="_blank"}. Read [How to create a form in Jekyll site](http://blog.webjeda.com/jekyll-contact-form/){: target="_blank"} to implement uusing formspree.
