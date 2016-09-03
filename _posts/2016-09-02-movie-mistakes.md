@@ -63,9 +63,30 @@ Balu lights Bhangi
 
 Passes it to Munna
 ![Ulidavaru Kandanthe Movie Mistakes](/images/ulidavaru-kandanthe-ganja-scene-2.jpg)
+Observe the Beedi, before and after.
 
-Let me know if there are more of them. It hurts because the movie is my all time favorite. I will be watching this many many times. [Rakshit Shetty](https://www.facebook.com/TheRakshitShetty/){: target="_blank"} should have given some more attention to these.
+Let me know if there are more of them. It hurts because the movie is my all time favorite. I will be watching this many many times. [Rakshit Shetty](https://www.facebook.com/TheRakshitShetty/){: target="_blank"} who has been so meticulous in the whole movie should have given some more attention to these silly things.
 
-Though he gets all the mistakes corrected, the movie will not earn more than what it did but that would have made the movie much enjoyable.
+Even if he gets all the mistakes corrected, the movie will not earn more than what it did but that would have made the movie much enjoyable.
 
-This is an unfinished business. More mistakes coming up..
+## What can be done
+
+### Course correction
+Having a team of experts to judge the movie frame by frame. This will definitely solve most of the mistakes but having them in the set could prevent the mistakes from happening.
+
+### Expert opinion
+An Indian movie basically is a perspective of the director and assistant director. Things can easily go un-noticed. So having critiques could help better themselves and the movie.
+
+### Technology
+Nowadays you can achieve things that were impossible just a few years ago. Anything can be corrected with CGI. This might demand more funds than the budget.
+
+### Improving stunts team
+Indian movie stunts are way exaggerated. A man cannot easily lift another man. A kick doesn't usually push anyone into the air unless they are already flying. A car(SUV, Tata Sumo) never flies or explodes just by shooting it. A helicopter and a Tata Sumo do not collide(Magadeera). Newton's laws apply everywhere(to Rohit Shetty).
+
+A fight should be realistic. I don't have to give an example from Bourne series. Take **Mungaru Male** for instance, there is hardly any fight but the one they have looks very real. Nobody flies.(read Period!)
+
+I'm happy to see that the sound of a punch or kick has taken a shift from literal **"Dishoom"** to an actual thump sound(not every Indian movie).
+
+This is an unfinished business. More mistakes coming up.
+
+**Comment the most bizarre mistake that you have seen in a movie.**
