@@ -6,7 +6,6 @@ layout: post
 permalink: /movie-mistakes/
 categories:
   - Movies
-
 img: ulidavaru-kandanthe-movie-mistake.jpg
 ---
 
