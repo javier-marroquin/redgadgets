@@ -14,8 +14,8 @@ description: > # this means to ignore newlines until "baseurl:"
   
   
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://redgadgets.com" # the base hostname & protocol for your site
-
+url: "https://redgadgets.com" # the base hostname & protocol for your site
+enforce_ssl: 'redgadgets.com'
 #footer
 built-by: webjeda
 
