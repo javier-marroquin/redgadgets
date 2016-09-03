@@ -11,28 +11,30 @@ img: ulidavaru-kandanthe-movie-mistake.jpg
 
 The cost of giving attention to details is finding mistakes in a movie and ruining the experience. I can assure that for the modern educated class, small mistakes do matter. At this point, this class isn't huge but soon it will be.
 
-Not so long ago I was so naive that I used to believe all the stunts pulled off by Indian movie stars. I was dumbstruck when a [Telugu actor broke stone pillars](https://youtu.be/EmJQABJ7sUk?t=282){: target="_blank"} with his bare hand! **Newtons third law of motion** states that 
+Not so long ago I was so naive that I used to believe all the stunts pulled off by Indian movie stars. I was dumbstruck when a [Telugu actor broke stone pillars](https://youtu.be/EmJQABJ7sUk?t=282){: target="_blank"} with his bare hand! I couldn't beleive this. **Newtons third law of motion** states that 
 
 > If you punch a stone pillar with bare hands then you will have to rely on your other hand for months.
 
 ![movie mistake punch a stone](/images/newtons-third-law-punch.jpg)
 
-It was time to do the math. I did some research and filtered out some data. The closest I got was this.
+It was time to do the math. I did some research and filtered out some data back then and found out it is actually not possible wothout hurting his own hands. 
+
+I did some digging while writing this and this is the closest I got.
 
 <iframe width="100%" height="360" src="https://www.youtube.com/embed/6gV3RctrdjM" frameborder="0" allowfullscreen></iframe>
 
-This guy breaks comparatively a small stone and not with his knuckles.
+This guy breaks comparatively a small stone with his palm, not with his knuckles and also uses a thick cloth in between.
 
 That was it. I had to say goodbye to most of the Telugu movies. After this incident, I weigh every movie with laws of nature. If a director shows anything out of ordinary, there better should be an explanation for it.
 
 ![6-5=2](/images/6-5=2.jpg)
 
-**6-5=2** is one such case. I don't mind the girl floating mid air with no one lifting her. It happens because of a super-natural power.
+**6-5=2** is one such case. I don't mind the girl floating mid air with no one lifting her. It happens because of some strange super-natural power.
 
 
 ## Why I'm concerned
 
-No movie is perfect. They have their own ups and downs but nobody cares about them after coming out of theaters. But, it concerns me deeply when cult movies - which we want to watch at least 10 times again - have a mistake. We all know that even **The Dark Knight** has some mistakes. I'm showing one of them here.
+No movie is perfect. They have their own ups and downs but nobody cares about them after coming out of theaters. But, it concerns me deeply when cult movies - which we want to watch at least 10 times again - have mistakes. We all know that even **The Dark Knight** has some mistakes. I'm showing one of them here.
 
 ![The dark knight movie mistake](/images/the-dark-knight-mistake.jpg)
 
@@ -53,7 +55,7 @@ I found some mistakes but I will mention some of them
 ### The reflector guy
 ![Ulidavaru Kandanthe Movie Mistakes](/images/ulidavaru-kandanthe-movie-mistake.jpg)
 
-This mistake is seen throughout the movie because the Rayban glasses are used in many shots.
+This mistake is seen throughout the movie because Rayban glasses are used in many shots.
 <br />
 
 ### The Bhangi Scene

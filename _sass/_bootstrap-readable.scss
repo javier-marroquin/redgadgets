@@ -1088,7 +1088,7 @@ html {
 }
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.6;
   color: #333333;
   background-color: #ffffff;
@@ -1294,12 +1294,14 @@ h6,
 }
 p {
   margin: 0 0 20px;
+  letter-spacing: 0.2px;
 }
 .lead {
   margin-bottom: 22px;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.4;
+
 }
 @media (min-width: 768px) {
   .lead {
@@ -1485,6 +1487,7 @@ blockquote {
   margin: 0 0 22px;
   font-size: 20px;
   border-left: 5px solid #4582ec;
+  background-color: aliceblue;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
