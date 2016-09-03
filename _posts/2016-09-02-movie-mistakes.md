@@ -1,5 +1,5 @@
 ---
-title: Protect eyes from computer
+title: Why so many Mistakes in Indian Movies?
 date: 2016-09-02T12:52:05+00:00
 author: Redgadgets
 layout: post
