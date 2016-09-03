@@ -65,6 +65,7 @@ Balu lights Bhangi
 
 Passes it to Munna
 ![Ulidavaru Kandanthe Movie Mistakes](/images/ulidavaru-kandanthe-ganja-scene-2.jpg)
+
 Observe the Beedi, before and after.
 
 Let me know if there are more of them. It hurts because the movie is my all time favorite. I will be watching this many many times. [Rakshit Shetty](https://www.facebook.com/TheRakshitShetty/){: target="_blank"} who has been so meticulous in the whole movie should have given some more attention to these silly things.
