@@ -9,7 +9,7 @@ categories:
 img: ulidavaru-kandanthe-movie-mistake.jpg
 ---
 
-The cost of giving attention to details is finding mistakes in a movie. I can assure that for the modern educated class, small mistakes do matter. At this point, this class isn't huge but soon it will be.
+The cost of giving attention to details is finding mistakes in a movie and ruining the experience. I can assure that for the modern educated class, small mistakes do matter. At this point, this class isn't huge but soon it will be.
 
 Not so long ago I was so naive that I used to believe all the stunts pulled off by Indian movie stars. I was dumbstruck when a [Telugu actor broke stone pillars](https://youtu.be/EmJQABJ7sUk?t=282){: target="_blank"} with his bare hand! **Newtons third law of motion** states that 
 
