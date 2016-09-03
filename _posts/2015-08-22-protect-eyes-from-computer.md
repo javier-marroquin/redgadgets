@@ -1,5 +1,5 @@
 ---
-title: Protect eyes from computer
+title: Protect Eyes from Computer Glare
 date: 2015-08-22T12:52:05+00:00
 author: Redgadgets
 layout: post
