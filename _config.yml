@@ -37,7 +37,7 @@ fb-app-id: 549480635219583
 fb-page-url: https://www.facebook.com/Redgadgets-331713717021812/
 fb-page-title: webjeda
 
-analytics: 
+analytics: 'UA-56952216-1'
 
 sass:
   style: compressed
