@@ -68,3 +68,5 @@ Passes it to Munna
 Let me know if there are more of them. It hurts because the movie is my all time favorite. I will be watching this many many times. [Rakshit Shetty](https://www.facebook.com/TheRakshitShetty/){: target="_blank"} should have given some more attention to these.
 
 Though he gets all the mistakes corrected, the movie will not earn more than what it did but that would have made the movie much enjoyable.
+
+This is an unfinished business. More mistakes coming up..
