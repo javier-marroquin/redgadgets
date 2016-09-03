@@ -27,10 +27,10 @@ paginate_path: /page:num/
 
 
 #social
-facebook: http://facebook.com/webjeda
-quora: http://quora.com/sharathdt
-twitter: http://twitter.com/@webjeda
-github: http://github.com/webjeda
+facebook: https://facebook.com/webjeda
+quora: https://quora.com/sharathdt
+twitter: https://twitter.com/@webjeda
+github: https://github.com/webjeda
 
 #facebook like box
 fb-app-id: 549480635219583
