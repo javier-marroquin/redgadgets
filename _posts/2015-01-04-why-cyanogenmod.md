@@ -19,33 +19,9 @@ img: cyanogenmod-cid.jpg
 
 Why Cyanogenmod? I get this question from my friends a lot. Read on to know the answer. Cyanogenmod is a Custom ROM for android smartphones. You can compare this to Windows 7 while Stock android is XP. This is just for understanding. Cyanogenmod is highly customizable and faster than conventional android OS. If you havent tried Cyanogenmod then please do try! There are a lot of cool stuff going on.
 
-<div id="toc_container" class="no_bullets">
-  <p class="toc_title">
-    Contents
-  </p>
-  
-  <ul class="toc_list">
-    <li>
-      <a href="#Why_Cyanogenmod"><span class="toc_number toc_depth_1">1</span> Why Cyanogenmod?</a><ul>
-        <li>
-          <a href="#1_Completely_own_your_phone"><span class="toc_number toc_depth_2">1.1</span> 1. Completely own your phone!</a>
-        </li>
-        <li>
-          <a href="#2_Security"><span class="toc_number toc_depth_2">1.2</span> 2. Security</a>
-        </li>
-        <li>
-          <a href="#3_Get_the_latest_Android_version_and_frequent_updates"><span class="toc_number toc_depth_2">1.3</span> 3. Get the latest Android version and frequent updates.</a>
-        </li>
-        <li>
-          <a href="#4_Highly_customizable"><span class="toc_number toc_depth_2">1.4</span> 4. Highly customizable</a>
-        </li>
-        <li>
-          <a href="#5_Performance"><span class="toc_number toc_depth_2">1.5</span> 5. Performance</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</div>
+
+* some
+{: toc }
 
 # <span id="Why_Cyanogenmod">Why Cyanogenmod?</span>
 

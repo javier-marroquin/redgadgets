@@ -11,31 +11,6 @@ tags:
   - moto bluetooth headset
   - moto hint
 ---
-<div id="toc_container" class="no_bullets">
-  <p class="toc_title">
-    Contents
-  </p>
-  
-  <ul class="toc_list">
-    <li>
-      <a href="#Motorola_doesn8217t_want_to_call_it_a_bluetooth_headset"><span class="toc_number toc_depth_1">1</span> Motorola doesn&#8217;t want to call it a bluetooth headset!</a>
-    </li>
-    <li>
-      <a href="#Specs"><span class="toc_number toc_depth_1">2</span> Specs</a><ul>
-        <li>
-          <a href="#Connectivity"><span class="toc_number toc_depth_2">2.1</span> Connectivity</a>
-        </li>
-        <li>
-          <a href="#In-Ear_Sensors"><span class="toc_number toc_depth_2">2.2</span> In-Ear Sensors</a>
-        </li>
-        <li>
-          <a href="#Power_and_Battery"><span class="toc_number toc_depth_2">2.3</span> Power and Battery</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</div>
-
 ## <span id="Motorola_doesn8217t_want_to_call_it_a_bluetooth_headset">Motorola doesn&#8217;t want to call it a bluetooth headset!</span>
 
 This $150 device is a discreet wireless earbud designed to look good and feel great. It gives you complete control of your phone and allows you to access everything you need by just using your voice.
@@ -43,7 +18,12 @@ This $150 device is a discreet wireless earbud designed to look good and feel gr
 [<img src="/wp-content/uploads/2015/01/moto-hint-300x300.png?fit=300%2C300" alt="moto-hint" class="alignnone size-medium wp-image-176" srcset="/wp-content/uploads/2015/01/moto-hint.png?resize=150%2C150 150w, /wp-content/uploads/2015/01/moto-hint.png?resize=300%2C300 300w, /wp-content/uploads/2015/01/moto-hint.png?resize=65%2C65 65w, /wp-content/uploads/2015/01/moto-hint.png?w=540 540w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/moto-hint.png)
 
 Pair it with your Moto X and ask questions like, “What’s today’s forecast?” or “How do I get home?” and get answers directly in your ear. You can also hear notifications, make calls, and send messages without having to touch or look at your phone.
-  
+
+
+* some
+{: toc }
+
+
 When you aren’t using Moto Hint, keep it in your ear and still hear everything around you clearly with pass-through audio
 
 [<img src="/wp-content/uploads/2015/01/moto-hint-story-pairit-us-300x300.jpg?fit=300%2C300" alt="moto-hint-story-pairit-us" class="alignnone size-medium wp-image-179" srcset="/wp-content/uploads/2015/01/moto-hint-story-pairit-us.jpg?resize=150%2C150 150w, /wp-content/uploads/2015/01/moto-hint-story-pairit-us.jpg?resize=300%2C300 300w, /wp-content/uploads/2015/01/moto-hint-story-pairit-us.jpg?resize=65%2C65 65w, /wp-content/uploads/2015/01/moto-hint-story-pairit-us.jpg?w=640 640w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/moto-hint-story-pairit-us.jpg)

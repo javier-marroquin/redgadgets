@@ -12,29 +12,7 @@ tags:
   - htc camera
   - recam
 ---
-<div id="toc_container" class="no_bullets">
-  <p class="toc_title">
-    Contents
-  </p>
-  
-  <ul class="toc_list">
-    <li>
-      <a href="#HTC_has_introduced_its_first_cross_platform_device_to_capture_quick_photos_and_videos"><span class="toc_number toc_depth_1">1</span> HTC has introduced its first cross platform device to capture quick photos and videos.</a>
-    </li>
-    <li>
-      <a href="#Live_life_in_full_view"><span class="toc_number toc_depth_1">2</span> Live life in full view</a>
-    </li>
-    <li>
-      <a href="#Share_with_a_click"><span class="toc_number toc_depth_1">3</span> Share with a click</a>
-    </li>
-    <li>
-      <a href="#Specs"><span class="toc_number toc_depth_1">4</span> Specs</a>
-    </li>
-    <li>
-      <a href="#Full_Specs"><span class="toc_number toc_depth_1">5</span> Full Specs</a>
-    </li>
-  </ul>
-</div>
+
 
 ## <span id="HTC_has_introduced_its_first_cross_platform_device_to_capture_quick_photos_and_videos">HTC has introduced its first cross platform device to capture quick photos and videos.</span>
 
@@ -45,6 +23,11 @@ tags:
 [<img class="alignnone size-medium wp-image-238" src="http://i2.wp.com/redgadgets.com/wp-content/uploads/2014/10/re_camera1-414x300.jpeg?fit=414%2C300" alt="re_camera1" data-recalc-dims="1" />](/wp-content/uploads/2014/10/re_camera1.jpeg)
 
 HTC has been doing a lot of innovative things in the smartphone section. This is a welcome change that HTC put their hands on to cameras. Though it looks like an asthma inhaler, it&#8217;s awesome in what it does!
+
+
+* some
+{: toc }
+
 
 ![Re cam](https://lh3.googleusercontent.com/-zRP_l_c0Nxc/VDY1U5BLRvI/AAAAAAAAAC8/Q9OsZH5_iC8/w1024-h510-no/htc_recam2.jpg)
 

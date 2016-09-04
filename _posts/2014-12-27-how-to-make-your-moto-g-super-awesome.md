@@ -121,53 +121,53 @@ Download and move the [XposedFramework.apk](http://dl.xposed.info/modules/de.rob
         
         > We are almost there&#8230;
         
-        ## <span id="Step_5_Xposed_Framework">Step 5: Xposed Framework</span>
+## <span id="Step_5_Xposed_Framework">Step 5: Xposed Framework</span>
         
-        Now that you are done rooting your phone you can install [XposedFramework.apk](http://dl.xposed.info/modules/de.robv.android.xposed.installer_v33_36570c.apk) like any other android application.
+Now that you are done rooting your phone you can install [XposedFramework.apk](http://dl.xposed.info/modules/de.robv.android.xposed.installer_v33_36570c.apk) like any other android application.
   
-        Now it&#8217;ll ask for a reboot.
+Now it&#8217;ll ask for a reboot.
         
-        > If your Xposed Framework doesn&#8217;t work then you may have to install [supersu](https://play.google.com/store/apps/details?id=eu.chainfire.supersu&hl=en) and [busybox](https://play.google.com/store/apps/details?id=stericson.busybox&hl=en) on your device.
+> If your Xposed Framework doesn&#8217;t work then you may have to install [supersu](https://play.google.com/store/apps/details?id=eu.chainfire.supersu&hl=en) and [busybox](https://play.google.com/store/apps/details?id=stericson.busybox&hl=en) on your device.
         
-        Xposed Framework will look like the below screenshot.
+Xposed Framework will look like the below screenshot.
   
-        [<img class="alignnone size-full wp-image-197" src="/wp-content/uploads/2015/01/xposed.jpg?fit=700%2C415" alt="xposed" srcset="/wp-content/uploads/2015/01/xposed.jpg?resize=506%2C300 506w, /wp-content/uploads/2015/01/xposed.jpg?resize=1024%2C607 1024w, /wp-content/uploads/2015/01/xposed.jpg?w=1200 1200w" sizes="(max-width: 1200px) 100vw, 1200px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/xposed.jpg)
+[<img class="alignnone size-full wp-image-197" src="/wp-content/uploads/2015/01/xposed.jpg?fit=700%2C415" alt="xposed" srcset="/wp-content/uploads/2015/01/xposed.jpg?resize=506%2C300 506w, /wp-content/uploads/2015/01/xposed.jpg?resize=1024%2C607 1024w, /wp-content/uploads/2015/01/xposed.jpg?w=1200 1200w" sizes="(max-width: 1200px) 100vw, 1200px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/xposed.jpg)
         
-        > You may have to reboot a lot many times than usual, but it&#8217;s worth it.
+> You may have to reboot a lot many times than usual, but it&#8217;s worth it.
         
-        ## <span id="Step_6_GravityBox">Step 6: GravityBox</span>
+## <span id="Step_6_GravityBox">Step 6: GravityBox</span>
         
-        Now in **Xposed Framework** navigate to **Download** click on search icon, type **GravityBox** and install it.
+Now in **Xposed Framework** navigate to **Download** click on search icon, type **GravityBox** and install it.
         
-        > That&#8217;s all, you are good to try all the customizations now.
+> That&#8217;s all, you are good to try all the customizations now.
         
-        # <span id="What_I8217ve_done_with_my_mobile">What I&#8217;ve done with my mobile.</span>
+# <span id="What_I8217ve_done_with_my_mobile">What I&#8217;ve done with my mobile.</span>
         
-        I have installed some modules like
+I have installed some modules like
         
-          1. GravityBox (great way to customize your phone)
-          2. Greenify (saves a lot of battery juice)
-          3. MiniGuard (no ads in selected apps!)
-          4. Tinted Status Bar (status bar takes up the color of the app you have launched)
-          5. Xtended NavBar (navigation bar can be swiped to have music control buttons and quick toggles)
-          6. XuiMod (some animation and stuff)
-        
-        Read: <a href="http://redgadgets.com/save-battery-android-smartphone/" target="_blank">How to save battery on android smartphone?</a>
-        
-        ## <span id="How_does_it_looks_like">How does it looks like?</span>
-        
-        > Here I have changed my status bar color. Usually the icons will be white, I have changed them to cyan. The tiles on the second screenshot are not available in stock ROM. I have quick toggle tiles that are really awesome. There is a camera tile, on clicking which you can take photos rightaway. No need to open camera app! The navigation bar is already using the **Android L** navbar. This is cool right?
-        
-        [<img class="alignnone wp-image-192 size-medium" src="/wp-content/uploads/2015/01/statusbar-339x300.jpg?fit=339%2C300" alt="cyanogenmod-12-statusbar" srcset="/wp-content/uploads/2015/01/statusbar.jpg?resize=339%2C300 339w, /wp-content/uploads/2015/01/statusbar.jpg?w=1000 1000w" sizes="(max-width: 339px) 100vw, 339px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/statusbar.jpg)
-        
-        > **Xtended NavBar** does some cool stuff with your navigation bar. You can now swipe it and control music and other toggles. Not a great deal but once you get used to this then you&#8217;ll know how hard it is to pull down and click on a quick toggle to turn your Wi-Fi on!
-        
-        [<img class="alignnone wp-image-180 size-medium" src="/wp-content/uploads/2015/01/navbar-508x300.jpg?fit=508%2C300" alt="cyanogenmod-12-screenshot" data-recalc-dims="1" />](/wp-content/uploads/2015/01/navbar.jpg)
-        
-        > Finally the **GravityBox**. This is the module through which you can change almost anything on your phone. By far this is the best module I have found. All those quick toggles you saw on the first screenshot was because of GravityBox. Customize your phone as you like. There are youtube videos available on how to use GravityBox!
-        
-        [<img class="alignnone wp-image-167 size-medium" src="/wp-content/uploads/2015/01/gravitybox-510x300.png?fit=510%2C300" alt="gravitybox-xposed-framework-screenshot" srcset="/wp-content/uploads/2015/01/gravitybox.png?resize=510%2C300 510w, /wp-content/uploads/2015/01/gravitybox.png?resize=1024%2C603 1024w" sizes="(max-width: 510px) 100vw, 510px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/gravitybox.png)
-        
-        Do you think Xposed Framework is better than a Custom Rom? Let us know in the comment section.
-        
-        Thanks!
+  1. GravityBox (great way to customize your phone)
+  2. Greenify (saves a lot of battery juice)
+  3. MiniGuard (no ads in selected apps!)
+  4. Tinted Status Bar (status bar takes up the color of the app you have launched)
+  5. Xtended NavBar (navigation bar can be swiped to have music control buttons and quick toggles)
+  6. XuiMod (some animation and stuff)
+
+Read: <a href="http://redgadgets.com/save-battery-android-smartphone/" target="_blank">How to save battery on android smartphone?</a>
+
+## <span id="How_does_it_looks_like">How does it looks like?</span>
+
+> Here I have changed my status bar color. Usually the icons will be white, I have changed them to cyan. The tiles on the second screenshot are not available in stock ROM. I have quick toggle tiles that are really awesome. There is a camera tile, on clicking which you can take photos rightaway. No need to open camera app! The navigation bar is already using the **Android L** navbar. This is cool right?
+
+[<img class="alignnone wp-image-192 size-medium" src="/wp-content/uploads/2015/01/statusbar-339x300.jpg?fit=339%2C300" alt="cyanogenmod-12-statusbar" srcset="/wp-content/uploads/2015/01/statusbar.jpg?resize=339%2C300 339w, /wp-content/uploads/2015/01/statusbar.jpg?w=1000 1000w" sizes="(max-width: 339px) 100vw, 339px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/statusbar.jpg)
+
+> **Xtended NavBar** does some cool stuff with your navigation bar. You can now swipe it and control music and other toggles. Not a great deal but once you get used to this then you&#8217;ll know how hard it is to pull down and click on a quick toggle to turn your Wi-Fi on!
+
+[<img class="alignnone wp-image-180 size-medium" src="/wp-content/uploads/2015/01/navbar-508x300.jpg?fit=508%2C300" alt="cyanogenmod-12-screenshot" data-recalc-dims="1" />](/wp-content/uploads/2015/01/navbar.jpg)
+
+> Finally the **GravityBox**. This is the module through which you can change almost anything on your phone. By far this is the best module I have found. All those quick toggles you saw on the first screenshot was because of GravityBox. Customize your phone as you like. There are youtube videos available on how to use GravityBox!
+
+[<img class="alignnone wp-image-167 size-medium" src="/wp-content/uploads/2015/01/gravitybox-510x300.png?fit=510%2C300" alt="gravitybox-xposed-framework-screenshot" srcset="/wp-content/uploads/2015/01/gravitybox.png?resize=510%2C300 510w, /wp-content/uploads/2015/01/gravitybox.png?resize=1024%2C603 1024w" sizes="(max-width: 510px) 100vw, 510px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/gravitybox.png)
+
+Do you think Xposed Framework is better than a Custom Rom? Let us know in the comment section.
+
+Thanks!

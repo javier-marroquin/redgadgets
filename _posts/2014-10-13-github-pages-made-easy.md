@@ -31,31 +31,9 @@ tags:
 ---
 [<img class="alignnone size-medium wp-image-307" src="/wp-content/uploads/2015/01/github-pages-600x232.jpeg?fit=600%2C232" alt="github-pages" data-recalc-dims="1" />](/wp-content/uploads/2015/01/github-pages.jpeg)
 
-<div id="toc_container" class="no_bullets">
-  <p class="toc_title">
-    Contents
-  </p>
-  
-  <ul class="toc_list">
-    <li>
-      <a href="#Hosting_a_blog_on_github"><span class="toc_number toc_depth_1">1</span> Hosting a blog on github</a><ul>
-        <li>
-          <a href="#Brief_steps"><span class="toc_number toc_depth_2">1.1</span> Brief steps</a>
-        </li>
-      </ul>
-    </li>
-    
-    <li>
-      <a href="#Step_1_Create_a_Repository"><span class="toc_number toc_depth_1">2</span> Step 1 Create a Repository</a>
-    </li>
-    <li>
-      <a href="#Step_2_Start_a_blog_or_fork_a_starting_point"><span class="toc_number toc_depth_1">3</span> Step 2 Start a blog or fork a starting point</a>
-    </li>
-    <li>
-      <a href="#Using_a_custom_domain"><span class="toc_number toc_depth_1">4</span> Using a custom domain</a>
-    </li>
-  </ul>
-</div>
+
+* some
+{: toc }
 
 ## <span id="Hosting_a_blog_on_github">Hosting a blog on github</span>
 

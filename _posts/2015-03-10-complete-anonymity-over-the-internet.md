@@ -24,44 +24,8 @@ Everyone has the right to read anything on the internet and not face the consequ
   
 &nbsp;
 
-<div id="toc_container" class="no_bullets">
-  <p class="toc_title">
-    Contents
-  </p>
-  
-  <ul class="toc_list">
-    <li>
-      <a href="#How_can_I_achieve_complete_anonymity_over_the_internet"><span class="toc_number toc_depth_1">1</span> How can I achieve complete anonymity over the internet</a><ul>
-        <li>
-          <a href="#CyberGhost_VPN"><span class="toc_number toc_depth_2">1.1</span> CyberGhost VPN</a>
-        </li>
-        <li>
-          <a href="#Tor_browser"><span class="toc_number toc_depth_2">1.2</span> Tor browser</a>
-        </li>
-        <li>
-          <a href="#DuckDuckGo_Search"><span class="toc_number toc_depth_2">1.3</span> DuckDuckGo Search</a>
-        </li>
-        <li>
-          <a href="#Ghostery_Plugin"><span class="toc_number toc_depth_2">1.4</span> Ghostery Plugin</a>
-        </li>
-        <li>
-          <a href="#Blur_Plugin"><span class="toc_number toc_depth_2">1.5</span> Blur Plugin</a>
-        </li>
-      </ul>
-    </li>
-    
-    <li>
-      <a href="#What_about_the_privacy_over_my_smartphone"><span class="toc_number toc_depth_1">2</span> What about the privacy over my smartphone?</a><ul>
-        <li>
-          <a href="#Hola_vpn"><span class="toc_number toc_depth_2">2.1</span> Hola vpn </a>
-        </li>
-        <li>
-          <a href="#Orbot"><span class="toc_number toc_depth_2">2.2</span> Orbot</a>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</div>
+* some
+{: toc }
 
 ## <span id="How_can_I_achieve_complete_anonymity_over_the_internet">How can I achieve complete anonymity over the internet</span>
 
