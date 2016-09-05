@@ -5,27 +5,7 @@
   
 {% seo %}
 
-<noscript>
-<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-<link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
-</noscript>
+
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
-<script>
-    (function() {
-        var font = document.createElement('link'); 
-        var font2 = document.createElement('link'); 
-        font.type = 'text/css'; 
-        font2.type = 'text/css'; 
-        font.rel = 'stylesheet';
-        font2.rel = 'stylesheet';
-        font.href = '/css/main.css';
-        font2.href = '/css/bootstrap.min.css';
-        var s = document.getElementsByTagName('link')[0]; 
-        var t = document.getElementsByTagName('link')[0]; 
-        s.parentNode.insertBefore(font, s);
-        t.parentNode.insertBefore(font2, t);
-      })();
-</script>
 </head>
