@@ -35,6 +35,6 @@ I would love to hear from you. Any query, any suggestion or feedback would be gr
          <input type="submit" class="btn btn-primary" value="Send" id="submit"/>
          </div>
          </div>
-        <input type="hidden" name='redirect_to' value="http://blog.webjeda.com/thank-you/" />
+        <input type="hidden" name='redirect_to' value="//redgadgets.com/thank-you/" />
     </fieldset>  
 </form>
