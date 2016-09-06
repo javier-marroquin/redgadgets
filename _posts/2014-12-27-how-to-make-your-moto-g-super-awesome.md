@@ -91,35 +91,26 @@ Download and move the [XposedFramework.apk](http://dl.xposed.info/modules/de.rob
   1. Download recovery from [Unstable Apps Recovery Downloader](http://builder.unstableapps.com/#/latest/clockworkmodrecovery/falcon) to obtain the latest version of ClockworkMod recovery for your device.
   2. Connect the Moto G to the computer via USB.
   3. Make sure the fastboot binary is in your PATH or that you place the recovery image in the same directory as fastboot.
-  4. Open a terminal on your PC and reboot the device into fastboot mode by typing by 
-        adb reboot bootloader
-        
+  4. Open a terminal on your PC and reboot the device into fastboot mode by typing by adb reboot bootloader using the hardware key combination for your device while it is powered off.
     
-    using the hardware key combination for your device while it is powered off.</li> 
-    
-      * Once the device is in fastboot mode, verify your PC sees the device by typing 
-            fastboot devices
+  5. Once the device is in fastboot mode, verify your PC sees the device by typing ``fastboot devices``
             
-        
-        > If you don&#8217;t see your device serial number, and instead see &#8220;waiting for device&#8221;, fastboot is not configured properly on your machine. See fastboot documentation for more info.
+> If you don&#8217;t see your device serial number, and instead see &#8220;waiting for device&#8221;, fastboot is not configured properly on your machine. See fastboot documentation for more info.
   
-        > If you see &#8220;no permissions fastboot&#8221;, make sure your [UDEV](http://developer.android.com/tools/device.html) rules are setup correctly.
+> If you see &#8220;no permissions fastboot&#8221;, make sure your [UDEV](http://developer.android.com/tools/device.html) rules are setup correctly.
     
-      * Flash recovery onto your device by entering the following command: 
-            fastboot flash recovery your_recovery_image.img
-            
+  6. Flash recovery onto your device by entering the following command: ``fastboot flash recovery your_recovery_image.img``
+    where the latter part is the filename of the recovery image.
         
-        where the latter part is the filename of the recovery image.</li> 
+ 7.Once the flash completes successfully, reboot the device into recovery to verify the installation. Boot to recovery instructions: Hold **Volume Down** & **Power** simultaneously. On the next screen use **Volume Down** to scroll to recovery and then use **Volume Up** to select.
         
-          * Once the flash completes successfully, reboot the device into recovery to verify the installation. Boot to recovery instructions: Hold **Volume Down** & **Power** simultaneously. On the next screen use **Volume Down** to scroll to recovery and then use **Volume Up** to select.</ol> </ul> </ul> 
-        
-        Recovery mode looks like this.
+Recovery mode looks like this.
   
-        [<img class="alignnone size-full wp-image-190" src="/wp-content/uploads/2015/01/recovery.jpg?fit=620%2C323" alt="recovery" srcset="/wp-content/uploads/2015/01/recovery.jpg?resize=576%2C300 576w, /wp-content/uploads/2015/01/recovery.jpg?w=620 620w" sizes="(max-width: 620px) 100vw, 620px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/recovery.jpg)
+[moto g recovery mode](/images/recovery.jpg)
         
-        Reboot the device. Install [supersu](https://play.google.com/store/apps/details?id=eu.chainfire.supersu&hl=en) and [busybox](https://play.google.com/store/apps/details?id=stericson.busybox&hl=en).
+Reboot the device. Install [supersu](https://play.google.com/store/apps/details?id=eu.chainfire.supersu&hl=en) and [busybox](https://play.google.com/store/apps/details?id=stericson.busybox&hl=en).
         
-        > We are almost there&#8230;
+> We are almost there&#8230;
         
 ## <span id="Step_5_Xposed_Framework">Step 5: Xposed Framework</span>
         
@@ -131,7 +122,7 @@ Now it&#8217;ll ask for a reboot.
         
 Xposed Framework will look like the below screenshot.
   
-[<img class="alignnone size-full wp-image-197" src="/wp-content/uploads/2015/01/xposed.jpg?fit=700%2C415" alt="xposed" srcset="/wp-content/uploads/2015/01/xposed.jpg?resize=506%2C300 506w, /wp-content/uploads/2015/01/xposed.jpg?resize=1024%2C607 1024w, /wp-content/uploads/2015/01/xposed.jpg?w=1200 1200w" sizes="(max-width: 1200px) 100vw, 1200px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/xposed.jpg)
+[moto g xposed framework screenshot](/images/xposed.jpg)
         
 > You may have to reboot a lot many times than usual, but it&#8217;s worth it.
         
@@ -158,15 +149,15 @@ Read: <a href="http://redgadgets.com/save-battery-android-smartphone/" target="
 
 > Here I have changed my status bar color. Usually the icons will be white, I have changed them to cyan. The tiles on the second screenshot are not available in stock ROM. I have quick toggle tiles that are really awesome. There is a camera tile, on clicking which you can take photos rightaway. No need to open camera app! The navigation bar is already using the **Android L** navbar. This is cool right?
 
-[<img class="alignnone wp-image-192 size-medium" src="/wp-content/uploads/2015/01/statusbar-339x300.jpg?fit=339%2C300" alt="cyanogenmod-12-statusbar" srcset="/wp-content/uploads/2015/01/statusbar.jpg?resize=339%2C300 339w, /wp-content/uploads/2015/01/statusbar.jpg?w=1000 1000w" sizes="(max-width: 339px) 100vw, 339px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/statusbar.jpg)
+[custom status bar Moto G](/images/statusbar.jpg)
 
 > **Xtended NavBar** does some cool stuff with your navigation bar. You can now swipe it and control music and other toggles. Not a great deal but once you get used to this then you&#8217;ll know how hard it is to pull down and click on a quick toggle to turn your Wi-Fi on!
 
-[<img class="alignnone wp-image-180 size-medium" src="/wp-content/uploads/2015/01/navbar-508x300.jpg?fit=508%2C300" alt="cyanogenmod-12-screenshot" data-recalc-dims="1" />](/wp-content/uploads/2015/01/navbar.jpg)
+![Custom navbar Moto G](/images/navbar.jpg)
 
 > Finally the **GravityBox**. This is the module through which you can change almost anything on your phone. By far this is the best module I have found. All those quick toggles you saw on the first screenshot was because of GravityBox. Customize your phone as you like. There are youtube videos available on how to use GravityBox!
 
-[<img class="alignnone wp-image-167 size-medium" src="/wp-content/uploads/2015/01/gravitybox-510x300.png?fit=510%2C300" alt="gravitybox-xposed-framework-screenshot" srcset="/wp-content/uploads/2015/01/gravitybox.png?resize=510%2C300 510w, /wp-content/uploads/2015/01/gravitybox.png?resize=1024%2C603 1024w" sizes="(max-width: 510px) 100vw, 510px" data-recalc-dims="1" />](/wp-content/uploads/2015/01/gravitybox.png)
+![Gravity box for Moto G](/images/gravitybox.png)
 
 Do you think Xposed Framework is better than a Custom Rom? Let us know in the comment section.
 
