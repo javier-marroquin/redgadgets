@@ -157,7 +157,7 @@ Read: <a href="http://redgadgets.com/save-battery-android-smartphone/" target="
 
 > Finally the **GravityBox**. This is the module through which you can change almost anything on your phone. By far this is the best module I have found. All those quick toggles you saw on the first screenshot was because of GravityBox. Customize your phone as you like. There are youtube videos available on how to use GravityBox!
 
-![Gravity box for Moto G](/images/gravitybox.png)
+![Gravity box for Moto G](/images/gravitybox.jpg)
 
 Do you think Xposed Framework is better than a Custom Rom? Let us know in the comment section.
 
