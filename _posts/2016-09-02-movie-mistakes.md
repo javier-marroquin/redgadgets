@@ -86,7 +86,7 @@ Nowadays you can achieve things that were impossible just a few years ago. Anyth
 ### Improving stunts team
 Indian movie stunts are way exaggerated. A man cannot easily lift another man. A kick doesn't usually push anyone into the air unless they are already flying. A car(SUV, Tata Sumo) never flies or explodes just by shooting it. A helicopter and a Tata Sumo do not collide(Magadeera). Newton's laws apply everywhere(to Rohit Shetty).
 
-A fight should be realistic. I don't have to give an example from Bourne series. Take **Mungaru Male** for instance, there is hardly any fight but the one they have looks very real. Nobody flies.(read Period!)
+A fight should be realistic. I don't have to give an example from Bourne series. Take **Mungaru Male** for instance, there are hardly any fight but the one they have looks very real. Nobody flies Period!
 
 I'm happy to see that the sound of a punch or kick has taken a shift from literal **"Dishoom"** to an actual thump sound(not every Indian movie).
 
