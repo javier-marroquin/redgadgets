@@ -44,6 +44,10 @@ Ok, that wasn't so observable. An average viewer misses this part. I missed it. 
 
 ![movie mistake gravity](/images/movie-mistake-gravity-ullocks-Hair.jpg)
 
+This is what he meant.
+
+![Sunitha Williams Hair in Zero Gravity](/images/sunitha-williams-hair-in-zero-gravity.jpg)
+
 I don't mind such things in a Sci-Fi movie which has got so many things right. Hollywood avoids and gets rid of most of the mistakes in pre-production. They employ a lot of people to work on different aspects of a movie. They do get the revenue back. 
 
 Whereas in Indian movies, the number of audiences is a fraction of that unless it is a Rajinikanth movie. There are directors who have finished shooting a movie within a week! So Indian movies do not have a dedicated team for everything. Maybe there is one person per unit (except for [S. Narayan](https://www.youtube.com/watch?v=NOrpPGh2IQo){: target="_blank"}).
