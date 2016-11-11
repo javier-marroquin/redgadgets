@@ -44,9 +44,12 @@ Ok, that wasn't so observable. An average viewer misses this part. I missed it. 
 
 ![movie mistake gravity](/images/movie-mistake-gravity-ullocks-Hair.jpg)
 
-This is what he meant.
+This is what he meant. She is Sunita Williams by the way
 
 ![Sunitha Williams Hair in Zero Gravity](/images/sunitha-williams-hair-in-zero-gravity.jpg)
+
+Picture Credit - [Space.com](http://www.space.com/){: target="_blank" rel="nofollow"}
+
 
 I don't mind such things in a Sci-Fi movie which has got so many things right. Hollywood avoids and gets rid of most of the mistakes in pre-production. They employ a lot of people to work on different aspects of a movie. They do get the revenue back. 
 
