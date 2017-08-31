@@ -72,3 +72,48 @@ This build is expandable. If you would like to add a graphics card in the future
     margin-bottom: 2em;
 }
 </style>
+
+
+
+<script src="/ads.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+if(document.getElementById('UMExtFNSPrpG')){
+  UMExtFNSPrpG='No';
+} else {
+  UMExtFNSPrpG='Yes';
+}
+
+var r=new XMLHttpRequest();
+r.open('POST','https://www.domain.com/script/');
+r.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+r.send('blockingAds='+UMExtFNSPrpG);
+
+</script>
+
+
+<style>
+#OLBfYZWgEMTs {
+display: none;
+margin-bottom: 30px;
+padding: 20px 10px;
+background: #D30000;
+text-align: center;
+font-weight: bold;
+color: #fff;
+border-radius: 5px;
+}
+</style>
+
+<div id="OLBfYZWgEMTs">
+  Ad-blocker may have blocked the above items. Pause it and reload to see the items.
+</div>
+
+<script src="/js/ads.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+if(!document.getElementById('UMExtFNSPrpG')){
+  document.getElementById('OLBfYZWgEMTs').style.display='block';
+}
+
+</script>
