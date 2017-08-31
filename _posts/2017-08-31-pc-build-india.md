@@ -109,7 +109,7 @@ border-radius: 5px;
   Ad-blocker may have blocked the above items. Pause it and reload to see the items.
 </div>
 
-<script src="/js/ads.js" type="text/javascript"></script>
+<script src="{{site.baseurl}}/js/ads.js" type="text/javascript"></script>
 <script type="text/javascript">
 
 if(!document.getElementById('UMExtFNSPrpG')){
