@@ -5,7 +5,7 @@ layout: post
 permalink: /pc-build-india/
 categories:
   - Tech
-img: 
+img: budget-pc-buing-india.jpg
 
 
 build:

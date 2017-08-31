@@ -10,6 +10,7 @@ categories:
   - Technology
 img: protect-eyes-from-computer.jpg
 ---
+
 Gamers, designers, software engineers usually suffer from eye strain or headaches by constantly staring at the monitors. Working in a place which has no natural light like basements or even in night time can be really harmful to your eyes.
 
 
