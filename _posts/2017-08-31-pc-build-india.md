@@ -46,7 +46,12 @@ build:
 <link rel="dns-prefetch" href="//www.youtube.com/">
 
 
-Bild a gaming PC in ₹20000. 
+## Budget PC Build India 
+
+The video gives you a detailed explaination on how to build a gaming PC within the budget of 20K. All the parts used to build this PC is given below. We have chosen LG monitor which is does not include in the build.
+
+This build is expandable. If you would like to add a graphics card in the future then you can do so. But this build plays almost all the games without much hassle in low graphic settings.
+
 
 <iframe class="video" src="https://www.youtube.com/embed/3L3IGKJIkBo?modestbranding=1&rel=0&start=0&end=1442&ytp-pause-overlay=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
 
