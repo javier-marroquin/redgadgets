@@ -1,4 +1,2 @@
-var e=document.createElement('div');
-e.id='UMExtFNSPrpG';
+var e = document.getElementById('OLBfYZWgEMTs');
 e.style.display='none';
-document.body.appendChild(e);
