@@ -1,0 +1,106 @@
+body {
+    //background: #000;
+    margin: 0;
+    padding: 0;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-family: $base-font-family;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $head-font-family;
+}
+
+a {
+    color: $text-color;
+}
+
+header {
+    a {
+        text-decoration: none;
+        color: $text-color;
+    }
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 6em;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        
+        @include media-query($on-palm) {
+            font-size: 2em;
+        }
+        
+    }
+    time {
+        font-family: 'regular', sans-serif;
+        display: block;
+        color: $text-color;
+        text-align: center;
+        border-top: 3px solid #333;
+        border-bottom: 3px solid #333;
+        font-size: 1.6em;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        
+        @include media-query($on-palm) {
+            font-size: 1em;
+        }
+    }
+}
+main {
+    width: 95%;
+    margin: 0 auto;
+    @include media-query($on-palm) {
+             width: 100%;
+        }
+}
+
+article {
+    h2 {
+        font-family: 'thin', sans-serif !important;
+    }
+}
+.card {
+    border: 2px solid $text-color;
+    &:hover .image {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+    .image {
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    .meta {
+        padding: 0 1.5em;
+    }
+    h2 {
+        margin-bottom: 0;
+    }
+}
+
+.text-center {
+    text-align: center;
+}.text-right {
+    text-align: right;
+}
+
+.footer {
+    @include media-query($on-palm) {
+        grid-gap: 10px;
+    }
+    p {
+         @include media-query($on-palm) {
+            margin: 0;
+        }
+    }
+}

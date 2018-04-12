@@ -1,28 +1,102 @@
 ---
 layout: compress
 ---
-
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700&text=REDGADGETS" rel="stylesheet">
+  {% seo %}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/moment.min.js"></script>
+  <script src="/js/jquery.rss.js"></script>
+ <!-- Feed fetching by https://github.com/sdepold/jquery-rss -->
+</head>
+<body>
 
-  {% include head.html %}
+  <header>
+      <a href="{{site.baseurl}}/"><h1>{{site.title}}</h1></a>
+      <time>{{ "today" | date: "%A, %B %-d, %Y" }}</time>
+  </header>
 
-  <body>
+    <main>
+    <article>
+      {{ content }}
+    </article>
+    </main>
 
-    {% include header.html %}
-
-    <div class="container">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
+<footer>
     
+    <p class="copy text-center"><small>Copyrights by {{site.title}} | Developed by <a href="http://webjeda.com">webjeda</a></small></p>
+</footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+<script>
+      jQuery(function($) {
+        $("#rss-feeds").rss("http://feeds.feedburner.com/theverge/jLgM",
+        {
+           limit: 6,
+           layoutTemplate: "<div class='verge r'>{entries}</div>",               
+           entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small>Source: <a target="_blank" href="{url}">Verge</a></small></p></div></div></div></div></div>'
+            
+        }) 
+      });
+</script>
+    <script async>
+      jQuery(function($) {
+                  
+        $("#rss-feeds").rss("http://feeds.feedburner.com/thenextwebrssfeed",
+        {
+           limit: 6,
+           layoutTemplate: "<div class='tnw r'>{entries}</div>",               
+           entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small>Source: <a target="_blank" href="{url}">TheNextWeb</a></small></p></div></div></div></div></div>'
+            
+        });
 
-  </body>
+        $("#rss-feeds").rss("http://feeds.feedburner.com/wiredrssfeed",
+        {
+           limit: 6,
+            tokens: {
+            imageUrl: function(entry, tokens) { return entry.thumbnail }},
+           layoutTemplate: "<div class='wired r'>{entries}</div>",               
+           entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({imageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small>Source: <a target="_blank" href="{url}">Wired</a></small></p></div></div></div></div></div>'
+            
+        });
+          
 
+        $("#rss-feeds").rss("http://feeds.feedburner.com/gizmodorssfeed",
+        {
+           limit: 6,
+            tokens: {
+            imageUrl: function(entry, tokens) { return entry.thumbnail }},
+           layoutTemplate: "<div class='gizmodo r'>{entries}</div>",               
+           entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small>Source: <a target="_blank" href="{url}">Gizmodo</a></small></p></div></div></div></div></div>'
+            
+        });
+          
+          
+          
+
+        $("#rss-feeds").rss("http://feeds.feedburner.com/engadgetrssfeedlive",
+        {
+           limit: 6,
+            tokens: {
+            imageUrl: function(entry, tokens) { return entry.thumbnail }},
+           layoutTemplate: "<div class='techcrunch r'>{entries}</div>",               
+           entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small>Source: <a target="_blank" href="{url}">Engadget</a></small></p></div></div></div></div></div>'
+            
+        })
+          
+          
+          
+          
+          
+      });
+        
+    </script>
+
+{% include analytics.html %}
+</body>
 </html>
