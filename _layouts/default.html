@@ -41,7 +41,7 @@ layout: compress
 
 <script>
       jQuery(function($) {
-        $("#rss-feeds").rss("http://feeds.feedburner.com/theverge/jLgM",
+        $("#rss-feeds").rss("//feeds.feedburner.com/theverge/jLgM",
         {
            limit: 6,
            layoutTemplate: "<div class='verge r'>{entries}</div>",               
@@ -53,7 +53,7 @@ layout: compress
     <script async>
       jQuery(function($) {
                   
-        $("#rss-feeds").rss("http://feeds.feedburner.com/thenextwebrssfeed",
+        $("#rss-feeds").rss("//feeds.feedburner.com/thenextwebrssfeed",
         {
            limit: 6,
            layoutTemplate: "<div class='tnw r'>{entries}</div>",               
@@ -61,7 +61,7 @@ layout: compress
             
         });
 
-        $("#rss-feeds").rss("http://feeds.feedburner.com/wiredrssfeed",
+        $("#rss-feeds").rss("//feeds.feedburner.com/wiredrssfeed",
         {
            limit: 6,
             tokens: {
@@ -72,7 +72,7 @@ layout: compress
         });
           
 
-        $("#rss-feeds").rss("http://feeds.feedburner.com/gizmodorssfeed",
+        $("#rss-feeds").rss("//feeds.feedburner.com/gizmodorssfeed",
         {
            limit: 6,
             tokens: {
@@ -85,12 +85,12 @@ layout: compress
           
           
 
-        $("#rss-feeds").rss("http://feeds.feedburner.com/engadgetrssfeedlive",
+        $("#rss-feeds").rss("//feeds.feedburner.com/engadgetrssfeedlive",
         {
            limit: 6,
             tokens: {
             imageUrl: function(entry, tokens) { return entry.thumbnail }},
-           layoutTemplate: "<div class='techcrunch r'>{entries}</div>",               
+           layoutTemplate: "<div class='engadget r'>{entries}</div>",               
            entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small>Source: <a target="_blank" href="{url}">Engadget</a></small></p></div></div></div></div></div>'
             
         })
