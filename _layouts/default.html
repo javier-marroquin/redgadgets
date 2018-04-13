@@ -17,10 +17,7 @@ layout: compress
   
   <link href="https://fonts.googleapis.com/css?family=Oswald:700&text=REDGADGETS" rel="stylesheet">
   {% seo %}
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="/js/nanobar.min.js"></script>
-  <script src="/js/moment.min.js"></script>
-  <script src="/js/jquery.rss.js"></script>
+
   <style>
       .my-class .bar {
       background: linear-gradient(90deg, rgba(243, 72, 104,1) 20.561212851929092%,rgba(242, 71, 103,1) 20.561212851929092%,rgba(237, 0, 83,1) 80.56186457247131%);
@@ -39,7 +36,7 @@ layout: compress
 </div>
   <header>
       <a href="{{site.baseurl}}/"><h1>{{site.title}}</h1></a>
-      <time>{{ "today" | date: "%A, %B %-d, %Y" }}</time>
+      <time id="today"></time>
   </header>
 
     <main>
@@ -53,6 +50,21 @@ layout: compress
     <p class="copy text-center"><small>Copyrights by {{site.title}} | Developed by <a href="http://webjeda.com">webjeda</a></small></p>
 </footer>
 
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/nanobar.min.js"></script>
+<script src="/js/moment.min.js"></script>
+<script src="/js/jquery.rss.js"></script>
+
+
+<!-- Display today's date -->
+<script>
+    var today = moment().format("dddd, MMM Do, YYYY"); 
+    document.getElementById('today').innerHTML += today;
+</script>
+
+
 <script>
 var options = {
 	classname: 'my-class',
@@ -64,7 +76,7 @@ nanobar.go( 76 );
 nanobar.go(100);
 </script>
 
-<script>
+<script async>
       jQuery(function($) {
         $("#rss-feeds-1").rss("https://feeds.feedburner.com/theverge/jLgM",
         {
