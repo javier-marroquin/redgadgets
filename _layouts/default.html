@@ -54,26 +54,16 @@ layout: compress
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="/js/nanobar.min.js"></script>
-<script src="/js/moment.min.js"></script>
+<!-- <script src="/js/moment.min.js"></script> -->
 <script src="/js/jquery.rss.js"></script>
 
 
 <!-- Display today's date -->
-<script>
-    var today = moment().format("dddd, MMM Do, YYYY"); 
-    document.getElementById('today').innerHTML += today;
-</script>
+<script src="/js/time.min.js"></script>
 
 
 <script>
-var options = {
-	classname: 'my-class',
-    id: 'my-id'
-};
-var nanobar = new Nanobar( options );
-nanobar.go( 30 );
-nanobar.go( 76 );
-nanobar.go(100);
+var options={classname:"my-class",id:"my-id"},nanobar=new Nanobar(options);nanobar.go(30);nanobar.go(76);nanobar.go(100);
 </script>
 
 <script async>
