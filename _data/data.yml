@@ -1,0 +1,28 @@
+websites:
+    - title: Top Tech News
+      rss: http://feeds.feedburner.com/technewsrssfeed
+      format: small
+      
+    - title: Top Science News
+      rss: http://feeds.feedburner.com/topsciencerssfeed
+      format: small
+      
+    - title: Top AI News
+      rss: http://feeds.feedburner.com/google/SZyf
+      format: small
+            
+    - title: Top Crypto News
+      rss: http://feeds.feedburner.com/google/YHVj
+      format: small
+      
+    - title: The Verge
+      link: https://www.theverge.com/
+      rss: https://feeds.feedburner.com/theverge/jLgM
+      
+    - title: TheNextWeb
+      link: https://thenextweb.com/
+      rss: https://feeds.feedburner.com/thenextwebrssfeed
+      
+    - title: EnGadgets
+      link: https://www.engadget.com/
+      rss: https://feeds.feedburner.com/engadgetrssfeedlive

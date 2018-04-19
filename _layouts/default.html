@@ -66,71 +66,25 @@ layout: compress
 var options={classname:"my-class",id:"my-id"},nanobar=new Nanobar(options);nanobar.go(30);nanobar.go(76);nanobar.go(100);
 </script>
 
+
+
 <script async>
       jQuery(function($) {
-        $("#rss-feeds-1").rss("https://feeds.feedburner.com/theverge/jLgM",
-        {
-           limit: 6,
+        {% for item in site.data.data.websites %}
+        $("#rss-feeds-{{forloop.index}}").rss("{{item.rss}}", {
+            limit: 6,
             ssl: true,
-           layoutTemplate: "<div class='verge r'>{entries}</div>",               
-           entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small>Source: <a target="_blank" href="{url}">Verge</a></small></p></div></div></div></div></div>'
-            
-        }) 
+            {% if item.format == 'small' %}
+            layoutTemplate: "<div class='{{item.title}} small r'>{entries}</div>",  
+            entryTemplate:'<div class="c-3 image-small" style="background-image: url({teaserImageUrl})"></div><div class="c-9"><a href="{url}" target="_blank"><div class="meta-small"><p><strong>{title}</strong></p><p>{shortBodyPlain}</p></div></a></div>'
+            {% else %}
+            layoutTemplate: "<div class='{{item.title}} r'>{entries}</div>",  
+             entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small><a target="_blank" href="{url}" class="btn green">Read</a></small></p></div></div></div></div></div>'    
+            {% endif %}
+        });
+        {% endfor %}
       });
 </script>
-    <script async>
-      jQuery(function($) {
-                  
-        $("#rss-feeds-2").rss("https://feeds.feedburner.com/thenextwebrssfeed",
-        {
-           limit: 6,
-            ssl: true,
-           layoutTemplate: "<div class='tnw r'>{entries}</div>",               
-           entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small>Source: <a target="_blank" href="{url}">TheNextWeb</a></small></p></div></div></div></div></div>'
-            
-        });
-
-        $("#rss-feeds-3").rss("https://feeds.feedburner.com/wiredrssfeed",
-        {
-           limit: 6,
-            ssl: true,
-            tokens: {
-            imageUrl: function(entry, tokens) { return entry.thumbnail }},
-           layoutTemplate: "<div class='wired r'>{entries}</div>",               
-           entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({imageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small>Source: <a target="_blank" href="{url}">Wired</a></small></p></div></div></div></div></div>'
-            
-        });
-          
-
-        $("#rss-feeds-4").rss("https://feeds.feedburner.com/gizmodorssfeed",
-        {
-           limit: 6,
-            ssl: true,
-           layoutTemplate: "<div class='gizmodo r'>{entries}</div>",               
-           entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small>Source: <a target="_blank" href="{url}">Gizmodo</a></small></p></div></div></div></div></div>'
-            
-        });
-          
-          
-          
-
-        $("#rss-feeds-5").rss("https://feeds.feedburner.com/engadgetrssfeedlive",
-        {
-           limit: 6,
-            ssl: true,
-           layoutTemplate: "<div class='engadget r'>{entries}</div>",               
-           entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small>Source: <a target="_blank" href="{url}">Engadget</a></small></p></div></div></div></div></div>'
-            
-        })
-          
-          
-          
-          
-          
-      });
-        
-    </script>
-
 {% include analytics.html %}
 </body>
 </html>

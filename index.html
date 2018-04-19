@@ -5,25 +5,34 @@ image: /images/redgadgets-the-best-tech-website.jpg
 ---
 
 
-<div id="rss-feeds-1"></div>
-<div class="r">
-    <div class="c-3"></div>
-    <div class="c-6">
-        {% include adsense.html %}
+<div  class="r gg-5 np">
+   {% for item in site.data.data.websites limit: 4 %}
+    <div class="c-3 card p-5" id="rss-feeds-{{forloop.index}}">
+        <div class="c-12"><p class="text-center underline"><strong>{{item.title}}</strong></p></div>
     </div>
-    <div class="c-3"></div>
+    {% endfor %}
 </div>
-<div id="rss-feeds-2"></div>
-<div id="rss-feeds-3"></div>
-<div class="r">
-    <div class="c-3"></div>
-    <div class="c-6">
-        {% include adsense.html %}
-    </div>
-    <div class="c-3"></div>
-</div>
-<div id="rss-feeds-4"></div>
+
+<div class="c-12"><h2 class="underline text-center mb-0">Technology News</h2></div>
 <div id="rss-feeds-5"></div>
+<div class="r">
+    <div class="c-3"></div>
+    <div class="c-6">
+        {% include adsense.html %}
+    </div>
+    <div class="c-3"></div>
+</div>
+<div id="rss-feeds-6"></div>
+<div id="rss-feeds-7"></div>
+<div class="r">
+    <div class="c-3"></div>
+    <div class="c-6">
+        {% include adsense.html %}
+    </div>
+    <div class="c-3"></div>
+</div>
+<div id="rss-feeds-8"></div>
+<div id="rss-feeds-9"></div>
 
 
 
