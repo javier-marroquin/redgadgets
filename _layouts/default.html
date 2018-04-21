@@ -65,8 +65,8 @@ layout: compress
 <script>
 var options={classname:"my-class",id:"my-id"},nanobar=new Nanobar(options);nanobar.go(30);nanobar.go(76);nanobar.go(100);
 </script>
-
-
+   
+    
 
 <script async>
       jQuery(function($) {
@@ -79,7 +79,7 @@ var options={classname:"my-class",id:"my-id"},nanobar=new Nanobar(options);nanob
             entryTemplate:'<div class="c-3 image-small" style="background-image: url({teaserImageUrl})"></div><div class="c-9"><a href="{url}" target="_blank"><div class="meta-small"><p><strong>{title}</strong></p><p>{shortBodyPlain}</p></div></a></div>'
             {% else %}
             layoutTemplate: "<div class='{{item.title}} r'>{entries}</div>",  
-             entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small><a target="_blank" href="{url}" class="btn green">Read</a></small></p></div></div></div></div></div>'    
+             entryTemplate:'<div class="c-4"><div class="card"><div class="image" style="background-image: url({teaserImageUrl})"></div><div class="meta"><h2>{title}</h2><p>{shortBodyPlain}</p><div class="r footer"><div class="c-6"><p><small class="author">by {author}</small><p></div><div class="c-6"><p class="text-right"><small><a target="_blank" href="{% if item.amp %}{url}{{item.amp}}{% else %}{url}{% endif %}" class="btn green">Read</a></small></p></div></div></div></div></div>'    
             {% endif %}
         });
         {% endfor %}

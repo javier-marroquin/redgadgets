@@ -19,10 +19,13 @@ websites:
       link: https://www.theverge.com/
       rss: https://feeds.feedburner.com/theverge/jLgM
       
+      
     - title: TheNextWeb
       link: https://thenextweb.com/
       rss: https://feeds.feedburner.com/thenextwebrssfeed
+      amp: ?amp=1
       
     - title: EnGadgets
       link: https://www.engadget.com/
       rss: https://feeds.feedburner.com/engadgetrssfeedlive
+      ampm: /amp
