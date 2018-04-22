@@ -7,7 +7,7 @@ image: /images/redgadgets-the-best-tech-website.jpg
 
 <div  class="r gg-5 np">
    {% for item in site.data.data.websites limit: 4 %}
-    <div class="c-3 card p-5" id="rss-feeds-{{forloop.index}}">
+    <div class="c-3 c-50 card p-5" id="rss-feeds-{{forloop.index}}">
         <div class="c-12"><p class="text-center underline"><strong>{{item.title}}</strong></p></div>
     </div>
     {% endfor %}
